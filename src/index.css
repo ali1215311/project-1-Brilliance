@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  --font-instrument-serif: "Instrument Serif", ui-serif, serif;
+}
+
+* {
+  @apply border-[rgba(55,50,47,0.08)] outline-[rgba(55,50,47,0.50)];
+}
+
+body {
+  @apply bg-[#F7F5F3] text-[#37322F] antialiased;
+  font-family: var(--font-inter);
+}
