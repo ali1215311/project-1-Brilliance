@@ -1,6 +1,7 @@
 import FeatureCards from "./Components/FeatureCards";
 import Hero from "./Components/Hero";
 import Navigation from "./Components/Navigation";
+import Testimonials from "./Components/Testimonials";
 
 const App = () => {
   return (
@@ -9,6 +10,8 @@ const App = () => {
       <div className="w-px h-full absolute right-4 sm:right-6 md:right-8 lg:right-0 top-0 bg-[rgba(55,50,47,0.12)] shadow-[1px_0px_0px_white] z-20"></div>
       <Navigation />
       <Hero />
+      <FeatureCards />
+      <Testimonials />
       <FeatureCards />
     </div>
   );
