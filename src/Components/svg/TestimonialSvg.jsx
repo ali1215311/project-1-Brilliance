@@ -13,7 +13,7 @@ const TestimonialSvg = () => {
         width="4"
         height="6"
         stroke="#37322F"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
       />
       <rect
@@ -22,7 +22,7 @@ const TestimonialSvg = () => {
         width="4"
         height="8"
         stroke="#37322F"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
       />
       <rect x="2" y="4" width="1" height="1" fill="#37322F" />

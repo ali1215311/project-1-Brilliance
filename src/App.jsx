@@ -1,6 +1,7 @@
 import FeatureCards from "./Components/FeatureCards";
 import Hero from "./Components/Hero";
 import Navigation from "./Components/Navigation";
+import Services from "./Components/Services";
 import Testimonials from "./Components/Testimonials";
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
       <Hero />
       <FeatureCards />
       <Testimonials />
-      <FeatureCards />
+      <Services />
     </div>
   );
 };

@@ -1,26 +1,42 @@
+import HeadingTemplate from "./HeadingTemplate";
 import TestimonialSvg from "./svg/testimonialSvg";
+
+const template = {
+  svg: <TestimonialSvg />,
+  templateName: "Testimonials",
+  title: "Confidence backed by results",
+  shortDes1: "Our customers achieve more each day",
+  shortDes2: "because their tools are simple, powerful, and clear.",
+  hide: true,
+};
 
 const Testimonials = () => {
   return (
     <>
-      <div className="w-full max-w-[calc(100%-32px)] sm:max-w-[calc(100%-48px)] md:max-w-[calc(100%-64px)] lg:max-w-[1060px] flex justify-center items-center gap-6 px-4 sm:px-6 md:px-24 py-8 sm:py-12 md:py-16 border-b border-[rgba(55,50,47,0.12)] m-auto">
-        <div className="flex flex-col justify-center items-center p-4 gap-3">
-          <div className="flex px-3.5 py-1.5 bg-white shadow-[0px_0px_0px_4px_rgba(55,50,47,0.05)] rounded-[90px] gap-2 border border-[rgba(2,6,23,0.08)]">
-            <span>
-              <TestimonialSvg />
-            </span>
-            <h2 className="text-center text-[#37322F] text-xs font-medium leading-3">
-              Testimonials
-            </h2>
+      <HeadingTemplate {...template} />
+
+      {/* First testimonial content */}
+      <div className="w-full max-w-[calc(100%-32px)] sm:max-w-[calc(100%-48px)] md:max-w-[calc(100%-64px)] lg:max-w-[1060px] py-12 md:py-16 px-5 md:px-20 lg:px-14 flex flex-col md:flex-row justify-center items-start m-auto gap-4 border-b">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_35_19%20AM-z4zSRLsbOQDp7MJS1t8EXmGNB6Al9Z.png"
+          alt="Jamie Marshall"
+          className="w-48 h-50 rounded-lg object-cover"
+        />
+        <div className="flex flex-col gap-6 shadow-[0px_0px_0px_0.75px_rgba(50,45,43,0.12)] p-6">
+          <div className="">
+            <p className="text-[#49423D] text-2xl md:text-[32px] font-medium leading-10 md:leading-[42px] h-auto tracking-tight">
+              "In just a few minutes, we transformed our data into actionable
+              insights. The process was seamless and incredibly efficient!"
+            </p>
           </div>
-          <h3 className="w-full max-w-[472.55px] text-center text-[#49423D] text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold leading-tight md:leading-[60px] tracking-tight">
-            Confidence backed by results
-          </h3>
-          <p className="text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7">
-            Our customers achieve more each day
-            <br class="hidden sm:block" /> because their tools are simple,
-            powerful, and clear.
-          </p>
+          <div className="flex flex-col gap-1">
+            <p className="text-[rgba(73,66,61,0.90)] text-lg font-medium leading-[26px]">
+              Jamie Marshall
+            </p>
+            <p className="text-[rgba(73,66,61,0.70)] text-lg font-medium leading-[26px]">
+              Co-founder, Exponent
+            </p>
+          </div>
         </div>
       </div>
     </>
