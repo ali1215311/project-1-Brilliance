@@ -1,10 +1,10 @@
-import FeatureCards from "./temps/FeatureCards";
-import Footer from "./temps/Footer";
-import Hero from "./temps/Hero";
-import Navigation from "./temps/Navigation";
-import Pricing from "./temps/Pricing";
-import Services from "./temps/Services";
-import Testimonials from "./temps/Testimonials";
+import FeatureCards from "./components/FeatureCards";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navigation from "./components/Navigation";
+import Pricing from "./components/Pricing";
+import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
