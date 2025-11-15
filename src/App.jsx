@@ -1,10 +1,10 @@
-import FeatureCards from "./temporaryNam/FeatureCards";
-import Footer from "./temporaryNam/Footer";
-import Hero from "./temporaryNam/Hero";
-import Navigation from "./temporaryNam/Navigation";
-import Pricing from "./temporaryNam/Pricing";
-import Services from "./temporaryNam/Services";
-import Testimonials from "./temporaryNam/Testimonials";
+import FeatureCards from "./temps/FeatureCards";
+import Footer from "./temps/Footer";
+import Hero from "./temps/Hero";
+import Navigation from "./temps/Navigation";
+import Pricing from "./temps/Pricing";
+import Services from "./temps/Services";
+import Testimonials from "./temps/Testimonials";
 
 const App = () => {
   return (
