@@ -1,7 +1,7 @@
 const Twitter = () => {
   return (
     <>
-      <div class="w-6 h-6 overflow-hidden">
+      <div className="w-6 h-6 overflow-hidden">
         <svg
           width="16"
           height="16"
