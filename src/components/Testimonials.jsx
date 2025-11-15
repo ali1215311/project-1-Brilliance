@@ -1,5 +1,5 @@
 import HeadingTemplate from "./HeadingTemplate";
-import TestimonialSvg from "./svg/testimonialSvg";
+import TestimonialSvg from "./svg/TestimonialSvg";
 
 const template = {
   svg: <TestimonialSvg />,
