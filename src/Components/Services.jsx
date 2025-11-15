@@ -3,7 +3,6 @@ import img4 from "../assets/images/services/speak.png";
 import img1 from "../assets/images/services/work-order.png";
 import img2 from "../assets/images/services/work-sync.png";
 import Card from "./Card";
-
 import HeadingTemplate from "./HeadingTemplate";
 import ServicesSvg from "./svg/ServicesSvg";
 

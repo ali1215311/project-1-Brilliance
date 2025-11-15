@@ -1,8 +1,10 @@
-import FeatureCards from "./Components/FeatureCards";
-import Hero from "./Components/Hero";
-import Navigation from "./Components/Navigation";
-import Services from "./Components/Services";
-import Testimonials from "./Components/Testimonials";
+import FeatureCards from "./components/FeatureCards";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navigation from "./components/Navigation";
+import Pricing from "./components/Pricing";
+import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <FeatureCards />
       <Testimonials />
       <Services />
+      <Pricing />
+      <Footer />
     </div>
   );
 };
